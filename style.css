@@ -32,8 +32,11 @@ body {
 .header-area {
     background-color: #fffff4;
     padding: 0px 0px 100px;
+    background-image: url(images/icon/dotted.svg);
+    background-size: inherit;
+    background-position: top;
+    background-repeat: no-repeat;
 }
-
 .main-container {
   width: 1260px;
   margin: auto;
