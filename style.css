@@ -117,18 +117,18 @@ nav.menu-list a {
 /* Header And Banner Section Styles End */
 /* Seller Section Styles */
 .seller-section {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 100px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 100px 0px;
 }
 .seller-text {
-    display: flex;
-    align-items: center;
-    margin-bottom: 20px;
-    justify-content: flex-start;
-    box-shadow: 0px 1px 5px 5px #ddd;
-    padding: 20px 0px 15px 15px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  justify-content: flex-start;
+  box-shadow: 0px 1px 5px 5px #ddd;
+  padding: 20px 0px 15px 15px;
 }
 .seller-text img {
   width: 100px;
@@ -149,5 +149,77 @@ nav.menu-list a {
   line-height: 26px;
 }
 .seller-img img {
-    width: 600px;
+  width: 600px;
 }
+/* Seller Section End */
+
+/* Casual Section Start */
+.casual-gallery img {
+  width: 270px;
+}
+/* .casual-gallery {
+  background-color: #ddd;
+  padding: 30px;
+} */
+
+.casual-title {
+  color: #363958;
+  font-size: 40px;
+  font-weight: 700;
+}
+.shor-title {
+  color: #363958;
+  font-size: 24px;
+  font-weight: 700;
+  text-align: left;
+  padding-left: 47px;
+  text-transform: capitalize;
+  margin-top: 10px;
+}
+.casual-description {
+  color: #3e3e3e;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+  padding-left: 47px;
+  width: 80%;
+  margin: 10px 0px 15px;
+}
+.casual-pricing {
+  color: #76c27e;
+  font-size: 36px;
+  font-weight: 900;
+}
+.button-group {
+  padding: 0px 46px;
+}
+.pricing-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.casual-group {
+  display: flex;
+  gap: 30px;
+  margin-top: 30px;
+  margin-bottom: 100px;
+}
+.casual-gallery img {
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+.casual-gallery {
+  text-align: center;
+  box-shadow: 0px 0px 30px 10px #f1f1f1;
+  border-radius: 15px;
+  padding-bottom: 20px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+/* Casual Section End */
